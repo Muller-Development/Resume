@@ -1,0 +1,34 @@
+html {
+  background-color: #ede8dc;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  color: #a5b68d;
+}
+
+hr {
+  color: #e7cccc;
+}
+
+.content-title {
+  color: #a5b68d;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work-position {
+  list-style-type: none;
+}
+
+.contact-details {
+  list-style-type: none;
+  padding: 0;
+}
