@@ -1,22 +1,68 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 html {
   background-color: #ede8dc;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  scroll-behavior: smooth;
 }
 
 img {
   height: 200px;
   width: 200px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  float: left;
 }
 
 h1 {
   color: #a5b68d;
 }
 
+h3 {
+  color: black;
+}
+
 hr {
   color: #e7cccc;
 }
 
+p {
+  width: 100%;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  justify-content: center;
+}
+
+.banner {
+  text-align: center;
+}
+
 .content-title {
-  color: #a5b68d;
+  margin: 5px;
+  display: inline-block;
 }
 
 .no-bullet {
@@ -31,4 +77,42 @@ hr {
 .contact-details {
   list-style-type: none;
   padding: 0;
+}
+
+.section-1 {
+  border: 5px solid #a5b68d;
+  border-radius: 5px;
+  margin-right: 50%;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.personal-text {
+  margin-right: 2px;
+}
+
+.section-1-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+  position: ;
+  margin-right: 0px;
+  margin-top: 1px;
+}
+
+.content-title-header {
+  display: inline-block;
+  margin-left: 39%;
+  bottom: 0;
+  position: ;
+}
+
+.section-2 {
+  display: inline-block;
 }
