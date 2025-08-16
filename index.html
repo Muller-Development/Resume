@@ -12,16 +12,46 @@
     />
 
     <link rel="stylesheet" href="./style.css" />
+    <!-- fav-icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body class="page-wrapper">
     <header>
-      <ul class="no-bullet menu">
+      <ul class="no-bullet menu menutext">
         <li><a href="#profile"> Profile</a></li>
         <li><a href="#education"> Education</a></li>
         <li><a href="#skills"> Skils</a></li>
         <li><a href="#experience"> Experience</a></li>
-        <li><a href="#media"> Media</a></li>
+        <li><a href="#media"> Impressions</a></li>
         <li><a href="#contact"> Contact me</a></li>
+        <div class="social-logo">
+          <a href="https://www.instagram.com/lorenzomuller95/" target="_blank"
+            ><img src="./Assets/images/instagram.png" alt="Instagram-icon"
+          /></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank"
+            ><img
+              id="linkedin"
+              src="./Assets/images/LinkedIn_logo_initials.png"
+              alt="linkedin"
+          /></a>
+        </div>
       </ul>
     </header>
 
@@ -33,21 +63,13 @@
     </div>
 
     <hr />
-    <div class="section-1">
-      <div class="content-title-header" id="profile">
-        <h3 class="content-title">✨ Lorenzo Müller</h3>
-        <a href="https://www.instagram.com/lorenzomuller95/" target="_blank"
-          ><img
-            class="icon"
-            src="./Assets/images/instagram.png"
-            alt="Instagram-icon"
-        /></a>
-      </div>
-      <div class="section-1-wrap">
+    <div class="section-1 content-title-header">
+      <h3 class="content-title">✨ Lorenzo Müller</h3>
+      <div class="section-1-left card">
         <img
           class="profile-foto"
           src="./Assets/images/Creating-Winners.jpeg"
-          alt="Lorenzo in Frankfurt"
+          alt="Lorenzo"
           height="200"
         />
 
@@ -60,8 +82,21 @@
           combine my 'soft' side with 'hard' skills.
         </p>
       </div>
+
+      <div class="section-1-right card">
+        <h2 class="qoute">
+          "The future belongs to those who believe in the beauty of their
+          dreams"
+        </h2>
+      </div>
+
+      <div class="section-image">
+        <img src="./Assets/images/Dia2.jpeg" alt="Lorenzo Dia 1" />
+      </div>
     </div>
+
     <hr />
+
     <div class="section-2" id="education">
       <h3 class="content-title">📚 Education</h3>
       <ul class="no-bullet">
